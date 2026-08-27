@@ -87,7 +87,7 @@ brief goes out in a single pass — five separate questions gets abandoned halfw
 
 | Ask | Poles | What it settles |
 |---|---|---|
-| Who arrives, and from where? | cold social traffic ↔ searched for you | how much the page must explain before it can sell |
+| Who arrives, and from where? | cold social traffic ↔ searched for you | how much the page must explain before it can do its job |
 | Register | talks like a friend ↔ talks like an expert | type weight, colour saturation, copy voice |
 | How much strange can this afford? | must feel familiar ↔ must be remembered | whether to break the grid at all |
 | What must it **not** look like? | *asked open* | the fastest constraint you will ever get |
@@ -121,10 +121,19 @@ default.
 ### 2 · Capture real sites — this step is the skill
 
 Eight to twelve, spread across four buckets: direct competitors, the adjacent
-category, **outside the category entirely**, and the target market's own
-culture. The third bucket is what makes the result new — a page assembled only
-from competitors converges on the category average by construction, because
-every input already agrees with every other one.
+category, **outside the category entirely**, and the audience's own culture. The
+third bucket is what makes the result new — a page assembled only from
+competitors converges on the category average by construction, because every
+input already agrees with every other one.
+
+Plenty of pages have no competitors at all: a personal site, a portfolio, a
+wedding, a club, something someone just wants to be beautiful. *"There aren't
+any"* is a real answer and the **freer** case, not the poorer one — the
+competitor bucket exists only to show what expectations a visitor arrives
+carrying, and there are none. Those slots move to outside-the-category, which
+goes from two or three sites to five or six, and the beauty question gets asked
+twice more from different corners of life. A page with nothing to prove should
+look like the person whose page it is.
 
 Nine questions go with each capture, ending in the one that matters: *what would
 you still remember about this page tomorrow?* A site with no answer to it is not

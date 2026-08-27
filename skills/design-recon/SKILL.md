@@ -58,7 +58,7 @@ alone is not craft.
 ### 1. Run a brief before you look at anything
 
 Skip this and you will capture references matching *your* taste rather than the
-product's, and everything downstream inherits that bias.
+page's, and everything downstream inherits that bias.
 
 **Ask in forced choices, not open questions.** "What feeling do you want?"
 returns "modern and clean" from everyone. Give two poles and make them pick —
@@ -67,7 +67,7 @@ of questions in chat.
 
 | Ask | Poles | What it settles |
 |---|---|---|
-| Who arrives, and from where? | cold social traffic ↔ searched for you or was referred | how much the page must explain before it can sell |
+| Who arrives, and from where? | cold social traffic ↔ searched for you or was referred | how much the page must explain before it can do its job |
 | Register | talks like a friend ↔ talks like an expert | type weight, colour saturation, copy voice |
 | How much strange can this afford? | must feel safe and familiar ↔ must be remembered | whether to break the grid at all |
 | What must it **not** look like? | *(ask open)* | the fastest constraint you will get |
@@ -84,8 +84,29 @@ drawing them from the same memory each time — and everyone who runs this skill
 gets that same list. What a particular person finds beautiful is the one input
 no two projects share.
 
-Ask all of it in one pass. A brief delivered as five separate questions gets
-abandoned halfway.
+Ask all of it in one pass. A brief delivered as separate questions gets abandoned
+halfway.
+
+#### When there is nothing at stake
+
+Plenty of pages have no competitors: a personal site, a portfolio, a wedding, a
+club, a hobby, something someone simply wants to be beautiful. Asking that person
+who they lose customers to is how a brief gets abandoned in the first minute.
+
+Take *"there aren't any"* as a real answer, not a gap to fill — and note that it
+is the **freer** case, not the poorer one. The competitor bucket exists only to
+show what expectations the visitor arrives carrying. Nothing at stake means no
+expectations to meet, so drop the bucket and spend its slots where the beauty
+was going to come from anyway: outside the category.
+
+Then **ask the beauty question twice more, from different corners of life.** One
+answer about a magazine, one about a place, one about an object. Those three are
+now most of the reference list, which is the point — a page with nothing to prove
+should look like the person whose page it is, and this is the only part of the
+brief that carries them.
+
+The other questions still work as written. *"How much strange can this afford?"*
+usually answers itself here.
 
 #### The gate: is the direction actually decided?
 
@@ -114,7 +135,7 @@ whether this should feel like a tool or a companion. The look is decided in step
 
 ```
 A · <short name>
-    Claims      <what the page asserts about the product before a word is read>
+    Claims      <what the page asserts about itself before a word is read>
     Rules out   <what this direction forbids>
     You'd see   <one concrete consequence, so it can be pictured>
 ```
@@ -154,12 +175,12 @@ bun capture.ts refs ./refs 1280 \
 
 **Capture 8–12, spread across four buckets:**
 
-| Bucket | How many | Why |
-|---|---|---|
-| Direct competitors | 2–3 | what this audience already compares the product to |
-| Adjacent category | 2–3 | same job to be done, different industry — moves transfer cleanly |
-| **Outside the category entirely** | 2–3 | record labels, museums, type foundries, restaurants, hardware |
-| The target market's own culture | 2+ | what *that* audience reads as normal, which is not what you read as normal |
+| Bucket | Something at stake | Nothing at stake | Why |
+|---|---|---|---|
+| Direct competitors | 2–3 | — | what this audience already compares the page to |
+| Adjacent category | 2–3 | 2–3 | same job done elsewhere — showing work, telling a story, listing dates |
+| **Outside the category entirely** | 2–3 | **5–6** | record labels, museums, type foundries, restaurants, hardware |
+| The audience's own culture | 2+ | 2+ | what *that* audience reads as normal, which is not what you read as normal |
 
 The third bucket is what makes the result new. A page assembled only from
 competitors converges on the category average by construction — every input
@@ -172,6 +193,9 @@ competitors and the same admired sites every time, so every page built this way
 ends up related. If an answer was thin, ask again before filling the gap — and
 if you do fill one from memory, say which, because that is the one place the
 whole method leaks back into your defaults.
+
+With nothing at stake there is no first bucket at all and the third is most of
+the list, so it carries the whole difference between this page and the next one.
 
 **You cannot skip ahead to step 3.** With no Bun or no Chromium, open the sites
 yourself and work from what is on screen. If you cannot see any real site at
