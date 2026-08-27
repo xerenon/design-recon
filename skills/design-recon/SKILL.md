@@ -79,6 +79,52 @@ tells you more in four words than a paragraph about brand values.
 Ask all of it in one pass. A brief delivered as five separate questions gets
 abandoned halfway.
 
+#### The gate: is the direction actually decided?
+
+Most briefs arrive as "build me a landing page" and stop there. Answering that
+from what you already know is how every page you make comes out looking like
+the last one. Two tests, both things you can check rather than feel:
+
+1. **Can you write the capture list?** Name 8–12 specific sites the brief points
+   at. If you are inventing them to fill the list, the brief is not done.
+2. **Does the direction exclude something?** Say it in one sentence. *"Modern and
+   clean"* forbids nothing and is therefore not a direction. *"A field guide, not
+   an app"* forbids a great deal.
+
+Both pass → go to step 2. Either fails → pass two.
+
+#### Pass two: propose directions, do not ask more questions
+
+Someone who could describe the design would have described it. Asking that same
+person more abstract questions returns more fog. **What they cannot author, they
+can judge** — so stop interviewing and put up options.
+
+Propose **three directions**, and make them *positions*, not visual styles. A
+vague client cannot choose between "brutalist" and "editorial", but can answer
+whether this should feel like a tool or a companion. The look is decided in step
+3 from real captures; what you need here is what the page must claim.
+
+```
+A · <short name>
+    Claims      <what the page asserts about the product before a word is read>
+    Rules out   <what this direction forbids>
+    You'd see   <one concrete consequence, so it can be pictured>
+```
+
+Three rules for the three:
+
+- **Far apart.** Three flavours of one idea is not a choice, it is a formality.
+- **Each must forbid something.** A direction that rules nothing out decides
+  nothing, and you will be back here after the first draft.
+- **Rejection counts as an answer.** "Not B, definitely not B" settles more than
+  a lukewarm yes, and arrives faster.
+
+**Two rounds, then commit.** If the direction is still open after pass two, pick
+the one the brief's own answers point at, say in one line which you picked and
+why, and start capturing. An abandoned brief costs more than an imperfect one.
+Treat *"you decide"* the same way: it is permission to choose, not permission to
+default — so choose out loud, and let them correct a stated choice.
+
 ### 2. Capture real sites — this step is the skill
 
 Not a trends article, not remembered examples: the sites themselves, rendered
@@ -254,6 +300,8 @@ offset. Full-page captures cannot render them honestly.
 | Mistake | Fix |
 |---|---|
 | Designing from trend articles | Capture the sites; articles describe, screenshots show |
+| Taking "build me a landing page" as a brief | It is a request, not a direction. Run the gate before capturing anything |
+| Asking a vague client more questions | They cannot author a direction. Put up three and let them reject two |
 | Capturing only competitors | Half the list should be from outside the category, or the result is the category average |
 | Treating a worked example as the answer | Every example in this file is one project's output. The form is the reusable part |
 | Removing all rounding to escape "AI look" | Overcorrection. Soft radii on *surfaces*, sharp rules and type |
@@ -265,6 +313,8 @@ offset. Full-page captures cannot render them honestly.
 ## Red flags
 
 - You started capturing references without asking the user anything
+- **You began capturing while the direction was still "modern and clean"**
+- **You could not have written the capture list without inventing it**
 - You picked the palette before looking at a single real site
 - **A visible decision that cannot name the capture it came from**
 - Every reference is a direct competitor

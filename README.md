@@ -95,6 +95,23 @@ brief goes out in a single pass — five separate questions gets abandoned halfw
 *"Not like a hospital"* tells you more in four words than a page of brand values,
 and it goes straight into the capture list.
 
+Then a gate, because most briefs arrive as *"build me a landing page"* and stop
+there. Two checks you can run rather than feel: **can you write the capture list
+without inventing it**, and **does the direction exclude something?** *"Modern
+and clean"* forbids nothing, so it is not a direction.
+
+If either fails, the skill stops asking questions and starts proposing. Someone
+who could describe the design would have described it — more abstract questions
+return more fog. **What they cannot author, they can judge.** So it puts up three
+*positions* (not visual styles: a vague client cannot pick between brutalist and
+editorial, but can say whether this should feel like a tool or a companion),
+each one naming what it claims and what it rules out. A direction that forbids
+nothing decides nothing, and rejection settles more than a lukewarm yes.
+
+Two rounds, then it commits — states which direction it picked and why, and
+starts capturing. *"You decide"* is permission to choose, not permission to
+default.
+
 ### 2 · Capture real sites — this step is the skill
 
 Eight to twelve, spread across four buckets: direct competitors, the adjacent
