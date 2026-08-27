@@ -1,0 +1,5 @@
+refs/
+out/
+*.png
+*.jpg
+.DS_Store
