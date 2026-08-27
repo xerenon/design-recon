@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400"
+     role="img" aria-label="design-recon — an agent skill for interfaces that don’t look like an AI made them">
+  <defs>
+    <pattern id="g" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#1B2226" stroke-width="1"/>
+    </pattern>
+    <style>
+      .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="400" fill="#111619"/>
+  <rect x="32" y="32" width="1136" height="336" fill="url(#g)" opacity=".6"/>
+  <rect x="32" y="32" width="1136" height="336" fill="none" stroke="#2C3539" stroke-width="1"/>
+
+  <g stroke="#2C3539" stroke-width="1">
+    <path d="M23 32h18M32 23v18"/><path d="M1159 32h18M1168 23v18"/>
+    <path d="M23 368h18M32 359v18"/><path d="M1159 368h18M1168 359v18"/>
+  </g>
+
+  <rect x="80" y="90" width="11" height="11" fill="#F2683C"/>
+  <text class="m" x="106" y="100" font-size="12" letter-spacing="3" fill="#7C8991">AGENT SKILL · CLAUDE CODE · CODEX · GEMINI</text>
+
+  <text class="m" x="80" y="208" font-size="86" font-weight="700" letter-spacing="-1.5" fill="#E6EAEB">design-recon</text>
+  <text class="m" x="80" y="250" font-size="13" letter-spacing="2.2" fill="#7C8991">INTERFACES THAT DON’T LOOK LIKE AN AI MADE THEM</text>
+
+  <g>
+    <rect x="772" y="88" width="348" height="132" fill="none" stroke="#2C3539" stroke-width="1"/>
+    <g stroke="#2C3539" stroke-width="1">
+      <path d="M772 121h348"/><path d="M772 154h348"/><path d="M772 187h348"/>
+    </g>
+    <g class="m" font-size="11" letter-spacing="1.2">
+      <text x="790" y="109" fill="#7C8991">METHOD</text> <text x="884" y="109" fill="#E6EAEB">6 STEPS, BRIEF FIRST</text>
+      <text x="790" y="142" fill="#7C8991">COLOUR</text> <text x="884" y="142" fill="#E6EAEB">OKLCH · CVD ΔE ≥ 8</text>
+      <text x="790" y="175" fill="#7C8991">AUDIT</text>  <text x="884" y="175" fill="#E6EAEB">DEVTOOLS PROTOCOL</text>
+      <text x="790" y="208" fill="#7C8991">LICENSE</text> <text x="884" y="208" fill="#E6EAEB">MIT</text>
+    </g>
+  </g>
+
+  <path d="M80 308h1040" stroke="#2C3539" stroke-width="1"/>
+  <g stroke="#E6EAEB" stroke-width="1.5">
+    <path d="M80 300v16"/><path d="M253 300v16"/><path d="M427 300v16"/>
+    <path d="M600 300v16"/><path d="M773 300v16"/>
+  </g>
+  <path d="M947 298v20" stroke="#F2683C" stroke-width="2.5"/>
+
+  <g class="m" font-size="10" letter-spacing="1.4" fill="#7C8991">
+    <text x="80" y="291">01</text><text x="253" y="291">02</text><text x="427" y="291">03</text>
+    <text x="600" y="291">04</text><text x="773" y="291">05</text>
+    <text x="947" y="291" fill="#F2683C">06</text>
+  </g>
+  <g class="m" font-size="12" letter-spacing="1.6" fill="#E6EAEB">
+    <text x="80" y="337">BRIEF</text><text x="253" y="337">CAPTURE</text><text x="427" y="337">SYNTHESISE</text>
+    <text x="600" y="337">NAME</text><text x="773" y="337">VALIDATE</text>
+    <text x="947" y="337" fill="#F2683C" font-weight="700">VERIFY</text>
+  </g>
+</svg>
