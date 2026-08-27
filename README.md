@@ -83,7 +83,8 @@ Six steps, in order. Colour is step five. Most bad pages decide it first.
 
 Forced choices, never open questions. *"What feeling do you want?"* returns
 **modern and clean** from everyone. Poles force a real answer, and the whole
-brief goes out in a single pass — five separate questions gets abandoned halfway.
+brief goes out in a single pass — delivered as separate questions it gets
+abandoned halfway.
 
 | Ask | Poles | What it settles |
 |---|---|---|
@@ -156,6 +157,17 @@ possible: an index, a menu, a timetable, a track listing, a scorecard. A page
 laid out as a printed index and a page laid out as a set list do not resemble
 each other whatever colours they arrive at. If the order is hero → features →
 testimonial → CTA and no capture has that shape, it came from memory.
+
+Two more rows carry no move: the **type** and the **palette**. They are the two
+everyone forgets to source and the two that give an AI-built page away fastest,
+because pages from the same model reach for the same handful of faces and the
+same three-hue arrangement whatever else changed. Type cannot be lifted off a
+screenshot, only described off one — you name what the display face *does*, then
+go and find something available that answers the description; jumping straight
+to a font name means naming one you already knew. The palette row is an
+arrangement rather than swatches: how many hues appear, which is the ground,
+what the accent is spent on and how rarely. Origin from the capture, validity
+from the measurement in step five.
 
 Stacking one move per site still only gives you the *average* of the references,
 so at least one has to be transformed:

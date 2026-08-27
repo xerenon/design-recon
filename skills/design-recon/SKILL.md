@@ -261,6 +261,32 @@ list do not resemble each other whatever colours they arrive at.
 If the section order is hero → features → testimonial → CTA and no capture has
 that shape, it came from memory.
 
+**Two more rows carry no move either — the type and the palette.** They are the
+two everyone forgets to source, and the two that give an AI-built page away
+fastest: pages from the same model reach for the same handful of faces and the
+same three-hue arrangement, whatever else changed. Neither is settled by taste
+here. Both name a capture.
+
+```
+spine     ← <site>   organised as <what it is organised as>
+type      ← <site>   display is <what kind of face, and what it does that the body face does not>
+                    → <a real, available face that answers that description>
+palette   ← <site>   ground is <what> · <how many hues> · <what carries the accent> · <how often it appears>
+```
+
+**Type cannot be lifted off a screenshot, only described off one.** You are not
+identifying the font; you are naming what it *does* — a grotesque with tight
+apertures and no contrast, a transitional serif set far larger than the grid
+wants, a face whose numerals are the interesting part. Then go and find
+something available that answers the description. Jumping straight to a font
+name means naming one you already knew, and those are the same few every time.
+
+**The palette row is an arrangement, not swatches.** How many hues actually
+appear, which one is the ground, what the accent is spent on and how rarely —
+that arrangement is most of why a page feels like a particular place. Take it
+from a capture, then let step 5 rule on whether the values you chose are
+legible: origin from the capture, validity from the measurement.
+
 **Then transform.** At least one row has to go through one of these, or the page
 is a tidy collage of things that already exist:
 
@@ -302,8 +328,10 @@ Every mark needs validating **against the surface it actually sits on**. A
 colour that passes on a pale ground fails on a dark one; dark blocks need their
 own step off the same ramp.
 
-A palette that cannot name where it came from is a palette from memory,
-whatever the hue.
+This step rules on legibility, not on origin — the palette row in step 3 already
+settled where the arrangement came from. A palette that cannot name its capture
+is a palette from memory whatever the hue, and validating it only proves the
+memory is readable.
 
 ### 6. Verify by rendering and measuring
 
@@ -381,7 +409,10 @@ offset. Full-page captures cannot render them honestly.
 - You started capturing references without asking the user anything
 - **You began capturing while the direction was still "modern and clean"**
 - **You could not have written the capture list without inventing it**
-- You picked the palette before looking at a single real site
+- **You cannot name the capture the display face came from** — or you named the
+  face before describing what it had to do
+- **The hue count, the ground and the accent's ratio came from you rather than
+  from a capture**
 - **A visible decision that cannot name the capture it came from**
 - Every reference is a direct competitor
 - **Every site on the list was named by you rather than by the client**
@@ -389,7 +420,7 @@ offset. Full-page captures cannot render them honestly.
   that shape**
 - A reference contributed more than one move
 - Nothing was transferred, combined or pushed — the page is an average
-- **This page would work unchanged for an unrelated product**
+- **This page would work unchanged for an unrelated project**
 - **This page resembles the last one you built, or the examples in this file**
 - Every block is the same width with the same padding
 - You cannot name the operation behind the headline treatment
