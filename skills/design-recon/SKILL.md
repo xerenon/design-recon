@@ -30,14 +30,20 @@ on every element.
 
 **Fix:** commit to a specific, named direction and execute it precisely.
 
-### 2. Your own house style — the one you will miss
+### 2. An inherited house style — the one you will miss
 
-Avoiding the generic default often lands on *your own* brand palette instead.
-Warm cream ground, terracotta accent, serif display is Anthropic's identity, not
-a neutral choice.
+Avoiding the generic default often lands on *someone's* brand instead. Warm
+cream ground, terracotta accent, serif display is Anthropic's identity, not a
+neutral choice.
 
-**Ask explicitly: does this look like the company that made me?** Nothing in the
-generic-AI checklist catches this; a human catches it instantly.
+The same trap has a second mouth: **the examples in whatever guide you are
+following, including this one.** If the page resembles the last page you built,
+or the worked examples in a document you just read, you inherited a look rather
+than choosing one. It will be coherent, confident, and wrong for this client.
+
+**Ask explicitly: does this look like the company that made me, or like the last
+thing I made?** Nothing in the generic-AI checklist catches either; a human
+catches both instantly.
 
 ### 3. Correct but flat
 
@@ -45,7 +51,7 @@ Disciplined palette, validated contrast, clean type — and still reads as
 generated, because every element is a flat rectangle in a tidy grid. Restraint
 alone is not craft.
 
-**Fix:** the flourish catalogue below. Usually the last 20%.
+**Fix:** go back to the captures and find what they do that your draft does not.
 
 ## The method
 
@@ -73,9 +79,12 @@ tells you more in four words than a paragraph about brand values.
 Ask all of it in one pass. A brief delivered as five separate questions gets
 abandoned halfway.
 
-### 2. Capture real sites before deciding anything
+### 2. Capture real sites — this step is the skill
 
-Not a trends article — the sites themselves. Use `capture.ts` in this directory.
+Not a trends article, not remembered examples: the sites themselves, rendered
+today. Everything downstream is assembled out of what you collect here, so a
+thin capture pass produces a thin design that no amount of care later can
+rescue.
 
 **Needs:** [Bun](https://bun.sh) and any Chromium build (Chrome, Chromium, Edge).
 It finds one automatically; `CHROME_PATH` overrides. It drives that browser
@@ -83,51 +92,93 @@ headlessly — nothing opens on screen and no existing browser session is touche
 
 ```bash
 bun capture.ts refs ./refs 1280 \
-  "noom|https://www.noom.com/" "arc|https://arc.net/" "monzo|https://monzo.com/"
+  "<name>|<url>" "<name>|<url>" "<name>|<url>"
 ```
 
-No Bun or no Chromium? The method still holds — open the sites yourself and
-compare them side by side. The script only makes it faster and repeatable.
+**Capture 8–12, spread across four buckets:**
 
-Pick 6–10: competitors, adjacent categories, and at least two from the target
-market's own culture — local references show what the audience already reads as
-normal.
+| Bucket | How many | Why |
+|---|---|---|
+| Direct competitors | 2–3 | what this audience already compares the product to |
+| Adjacent category | 2–3 | same job to be done, different industry — moves transfer cleanly |
+| **Outside the category entirely** | 2–3 | record labels, museums, type foundries, restaurants, hardware |
+| The target market's own culture | 2+ | what *that* audience reads as normal, which is not what you read as normal |
 
-Look for what they *have in common* that your draft lacks. A single site tells
-you nothing.
+The third bucket is what makes the result new. A page assembled only from
+competitors converges on the category average by construction — every input
+already agrees with every other input.
 
-### 3. Synthesise — do not collage
+**You cannot skip ahead to step 3.** With no Bun or no Chromium, open the sites
+yourself and work from what is on screen. If you cannot see any real site at
+all, say so and stop. A design built from remembered examples is the exact
+failure this skill exists to prevent, and it will come out looking like
+whatever you built last.
 
-Take **one structural move** from each reference, never a whole look. Six sites
-contributing one move each reads as a point of view; two sites contributing
-everything reads as a copy.
+**What to extract from each capture.** Ask these of the screenshot in front of
+you and write down the answer, not your opinion of it:
 
-Write the attribution down before building:
-
-```
-layering / floating chips   ← LINE MAN
-section edges               ← Arc
-per-card colour + tilt      ← Headspace
-rotated badges              ← Monzo
-surface texture             ← Oatly
-```
-
-Then check each move against the brief. **A move that cannot be traced to a line
-in the brief gets cut** — that is how six references become one design instead
-of a mood board.
-
-### 4. Name the technique behind every decision
-
-"Warm and editorial" is a mood, not a decision. Name the operation:
-
-| Technique | Example |
+| Look at | Ask |
 |---|---|
-| Clip an idiom | `เงาตามตัว` (inseparable, like a shadow) → `เงาตาม` |
-| Shift the register | `จี้` (nagging, irritating) → `ตื๊อ` (persistent, endearing) |
-| Two meanings stacked | `ไหว` = "can manage" · romanised `WAI` = the greeting |
-| Borrowed structure | `หมอชาวบ้าน` (a long-running Thai health magazine) → category + "of the people" |
+| Edges | Where does one section end and the next begin — a rule, a colour change, a cut shape, nothing at all? |
+| Repetition | Are repeated items identical, or does each get its own colour, angle, or size? |
+| Containment | Does anything overlap, tilt, or break out of its box? |
+| Surface | Is any ground textured, or is every fill flat? |
+| Colour count | How many hues actually appear, counting the ones used once? |
+| Imagery | Photography, illustration, the product's own output, or type alone? |
+| Type | How many faces, at what weights — and what does the display face do that the body face does not? |
+| Motion | What moves, and does anything respond to being pressed? |
+| **The one thing** | What would you still remember about this page tomorrow? |
 
-If you cannot name the operation, you picked from memory.
+The last row matters most. A site worth capturing has an answer to it. If you
+cannot find one, it is not a reference — it is a competitor.
+
+### 3. Synthesise — take, transform, then check
+
+Collecting one move per reference and stacking them up gives you the average of
+the references. The brief asked for something better than any of them.
+
+**Fill the ledger from your own captures.** One row per reference, the move
+described in the words of what you saw rather than the name of a technique:
+
+```
+<the move you observed>   ← <site you captured>   → <the line in the brief it serves>
+<the move you observed>   ← <site you captured>   → <the line in the brief it serves>
+```
+
+A row with no site is a memory. A row with no brief line is decoration. Both get
+cut. One move per reference, never a whole look: six sites contributing one move
+each reads as a point of view, two sites contributing everything reads as a copy.
+
+**Then transform.** At least one row has to go through one of these, or the page
+is a tidy collage of things that already exist:
+
+| Operation | What it does |
+|---|---|
+| **Transfer** | Apply a reference's move to a different element than it uses it on — its section-edge treatment becomes your card edge |
+| **Combine** | Join two moves no reference joins — per-item colour variance *and* a textured ground, where each site does only one |
+| **Push** | Take a single move further than any reference dares |
+
+**Exactly one signature move.** Push one; hold everything else steady. Two
+pushes read as noise; none reads as tasteful and forgettable.
+
+**Before building, answer this: what does the finished page have that no
+captured site has?** If the answer is nothing, you have assembled a mood board.
+
+### 4. Name the operation behind every decision
+
+"Warm and editorial" is a mood, not a decision. If you cannot say which
+operation produced a choice, you took it from memory.
+
+| Operation | What it sounds like |
+|---|---|
+| Transfer | "the edge treatment from X, moved onto the cards" |
+| Invert | "the reference uses this for emphasis; here it carries the ground" |
+| Constrain | "one accent, appearing exactly four times" |
+| Exaggerate | "display type at twice the size the grid wants" |
+| Borrow structure | "laid out like a printed index, not like a web page" |
+
+The same discipline applies to naming and copy. An operation can be argued with;
+a mood cannot.
 
 ### 5. Validate colour computationally, never by eye
 
@@ -136,39 +187,32 @@ what eyes do not: a rose/green pair that looked fine failed CVD separation at
 ΔE 4.5 — the classic red/green trap, invisible until measured.
 
 Every mark needs validating **against the surface it actually sits on**. A
-colour that passes on cream fails on indigo; dark blocks need their own step
-off the same ramp.
+colour that passes on a pale ground fails on a dark one; dark blocks need their
+own step off the same ramp.
+
+A palette that cannot name where it came from is a palette from memory,
+whatever the hue.
 
 ### 6. Verify by rendering and measuring
 
 See "Verification" below. Not optional polish — in one session it caught four
 real bugs and stopped three false alarms from being "fixed".
 
-## The flourish catalogue
-
-What "hand-made" actually consists of. Each of these is cheap; the absence of
-all of them is what reads as generated.
-
-| Move | Where it comes from |
-|---|---|
-| Elements overlap, tilt, and float outside their container | LINE MAN floats food tiles around a phone |
-| Cards each get their own colour and their own rotation | Headspace |
-| Circular badges rotated onto the artwork, not aligned to it | Monzo |
-| Section edges cut as a zigzag instead of a straight rule | Arc |
-| A marquee of real domain words | Arc |
-| Faint halftone dot texture on solid blocks | Oatly |
-| More than three colours | Duolingo, Headspace |
-| Thick outlines with hard offset shadows, not soft blur | — |
-| Buttons that visibly depress on `:active` | — |
+## Imagery
 
 **Where photography is unavailable:** do not substitute stock. Render the
 product's own output as the imagery — a real conversation, a month of logged
-days, a weight line. It is more convincing than a stock plate of food and a
+days, a route, a receipt. It is more convincing than a stock plate, and a
 competitor cannot lift it.
+
+This is a source of imagery, not a style. What that output should *look* like
+comes from the captures, like everything else.
 
 ## Non-Latin typography
 
-Worked in Thai; the principle generalises to any script with stacked marks.
+Applies when the content is in a script that stacks marks. Worked in Thai;
+generalises to Devanagari, Arabic, Vietnamese and the rest. **If the page is in
+Latin script, skip this section — it is not a design direction.**
 
 - **A monospace face has no Thai glyphs.** Applying one to Thai text silently
   falls back and breaks the type system. Use mono only where the content is
@@ -210,6 +254,8 @@ offset. Full-page captures cannot render them honestly.
 | Mistake | Fix |
 |---|---|
 | Designing from trend articles | Capture the sites; articles describe, screenshots show |
+| Capturing only competitors | Half the list should be from outside the category, or the result is the category average |
+| Treating a worked example as the answer | Every example in this file is one project's output. The form is the reusable part |
 | Removing all rounding to escape "AI look" | Overcorrection. Soft radii on *surfaces*, sharp rules and type |
 | Three flat colours, calling it disciplined | Range comes from tonal steps and tinted grounds, not fewer hues |
 | Emoji as interface icons | Draw an inline SVG, or use numerals and rules |
@@ -220,8 +266,12 @@ offset. Full-page captures cannot render them honestly.
 
 - You started capturing references without asking the user anything
 - You picked the palette before looking at a single real site
+- **A visible decision that cannot name the capture it came from**
+- Every reference is a direct competitor
 - A reference contributed more than one move
-- The accent is neon on near-black, or terracotta on cream
+- Nothing was transferred, combined or pushed — the page is an average
+- **This page would work unchanged for an unrelated product**
+- **This page resembles the last one you built, or the examples in this file**
 - Every block is the same width with the same padding
 - You cannot name the operation behind the headline treatment
 - You have not rendered it at 380px
@@ -229,7 +279,14 @@ offset. Full-page captures cannot render them honestly.
 
 ## Real-world impact
 
-Five directions rejected before one landed, in order: generic AI aesthetic → the
-model's own house style → correct but flat → flourishes but a weak navbar →
+Five directions rejected before one landed, in order: generic AI aesthetic → an
+inherited house style → correct but flat → flourishes but a weak navbar →
 shipped. Each was a *different* failure mode. Diagnosing which one you have is
 most of the work.
+
+The second one is not hypothetical for this document either. An early version
+listed the finished moves from that project — a marquee, rotated badges, a
+textured ground — in a table with the sites they came from. Readers applied the
+table instead of capturing anything, and unrelated products came out looking
+like that one project. A menu of answers will always be cheaper than doing the
+work, so the answers are gone; what is left is what to look for.

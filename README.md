@@ -27,8 +27,8 @@ They need different fixes, and treating one as another gets you rejected twice.
 | | Looks like | The fix |
 |---|---|---|
 | **1 · The generic AI aesthetic** | Dark ground, one neon accent, uniform card radius, gradient glow, emoji icons, a perfectly symmetrical grid | Commit to a specific named direction and execute it precisely |
-| **2 · Your own house style** | Warm cream, terracotta accent, serif display. That is *Anthropic's* identity — not a neutral choice | Ask outright: does this look like the company that made me? |
-| **3 · Correct but flat** | Validated palette, clean type, correct spacing, and still lifeless — every element a flat rectangle in a tidy grid | Apply the flourish catalogue: overlap, tilt, texture, shaped edges |
+| **2 · An inherited house style** | Warm cream, terracotta accent, serif display — that is *Anthropic's* identity. Or the worked examples from the guide you just read | Ask outright: does this look like the company that made me, or like the last thing I made? |
+| **3 · Correct but flat** | Validated palette, clean type, correct spacing, and still lifeless — every element a flat rectangle in a tidy grid | Go back to the captures and find what they do that the draft does not |
 
 **Number two is the one that will get you.** No generic-AI checklist catches it,
 because it is not generic — it is a real, coherent visual identity. Just not the
@@ -95,16 +95,33 @@ brief goes out in a single pass — five separate questions gets abandoned halfw
 *"Not like a hospital"* tells you more in four words than a page of brand values,
 and it goes straight into the capture list.
 
-### 2 · Capture real sites
+### 2 · Capture real sites — this step is the skill
 
-Six to ten: direct competitors, adjacent categories, and at least two from the
-target market's own culture. You are looking for what they all have that your
-draft does not.
+Eight to twelve, spread across four buckets: direct competitors, the adjacent
+category, **outside the category entirely**, and the target market's own
+culture. The third bucket is what makes the result new — a page assembled only
+from competitors converges on the category average by construction, because
+every input already agrees with every other one.
 
-### 3 · Synthesise, do not collage
+Nine questions go with each capture, ending in the one that matters: *what would
+you still remember about this page tomorrow?* A site with no answer to it is not
+a reference, it is a competitor.
 
-One structural move per reference — never a whole look. Any move that cannot be
-traced back to a line in the brief gets cut.
+You cannot skip this step. If no real site can be seen, the skill says to stop
+and say so — a design built from remembered examples comes out looking like
+whatever you built last.
+
+### 3 · Synthesise — take, transform, then check
+
+One structural move per reference, each traced to a line in the brief; anything
+that cannot be traced gets cut. But stacking one move per site only gives you
+the *average* of the references, so at least one has to be transformed:
+**transfer** it onto a different element than the reference uses it on,
+**combine** it with a move no reference combines it with, or **push** it further
+than any reference dares. Exactly one push — two read as noise.
+
+Then the question the whole step exists for: *what does the finished page have
+that none of the captured sites has?*
 
 ### 4 · Name the operation behind every decision
 
