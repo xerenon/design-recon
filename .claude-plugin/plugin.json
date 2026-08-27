@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "design-recon",
+  "version": "1.0.0",
+  "description": "Builds interfaces that don't look like an AI made them. Briefs you like a designer would, opens Chrome to capture real reference sites, takes one move from each, then verifies the result by measuring it instead of trusting the screenshot.",
+  "author": {
+    "name": "xerenon",
+    "url": "https://github.com/xerenon"
+  },
+  "homepage": "https://github.com/xerenon/design-recon",
+  "repository": "https://github.com/xerenon/design-recon",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "frontend",
+    "ui",
+    "css",
+    "ai-slop",
+    "typography",
+    "headless-chrome"
+  ],
+  "skills": [
+    "./skills/design-recon"
+  ]
+}
