@@ -71,10 +71,18 @@ of questions in chat.
 | Register | talks like a friend ↔ talks like an expert | type weight, colour saturation, copy voice |
 | How much strange can this afford? | must feel safe and familiar ↔ must be remembered | whether to break the grid at all |
 | What must it **not** look like? | *(ask open)* | the fastest constraint you will get |
-| Name a brand whose look you like | *(ask open)* | seeds the reference list directly |
+| Which 2–3 sites do you lose people to? | *(ask open)* | the competitor bucket, named by the person who actually knows |
+| Name something unrelated that you find beautiful — a shop, a magazine, a game, a car | *(ask open)* | the outside-category bucket, and the single largest source of difference between one project and the next |
 
-The last two answers go straight into the capture list. "Not like a hospital"
-tells you more in four words than a paragraph about brand values.
+**The open answers are the reference list.** "Not like a hospital" tells you more
+in four words than a paragraph about brand values, and the last two questions
+hand you two of the four capture buckets outright.
+
+That last question is doing more work than it looks. Left to yourself you will
+name the same admired sites for every brief in a category, because you are
+drawing them from the same memory each time — and everyone who runs this skill
+gets that same list. What a particular person finds beautiful is the one input
+no two projects share.
 
 Ask all of it in one pass. A brief delivered as five separate questions gets
 abandoned halfway.
@@ -118,6 +126,9 @@ Three rules for the three:
   nothing, and you will be back here after the first draft.
 - **Rejection counts as an answer.** "Not B, definitely not B" settles more than
   a lukewarm yes, and arrives faster.
+- **Build them out of their answers**, above all what they said it must not look
+  like and the unrelated thing they called beautiful. Three archetypes you could
+  have written before meeting this person is the same failure one level up.
 
 **Two rounds, then commit.** If the direction is still open after pass two, pick
 the one the brief's own answers point at, say in one line which you picked and
@@ -153,6 +164,14 @@ bun capture.ts refs ./refs 1280 \
 The third bucket is what makes the result new. A page assembled only from
 competitors converges on the category average by construction — every input
 already agrees with every other input.
+
+**Buckets 1 and 3 are filled from the brief, not by you.** They are exactly the
+two the client was asked to name, and they are the two where your own memory
+would otherwise decide the outcome: given a category you will recall the same
+competitors and the same admired sites every time, so every page built this way
+ends up related. If an answer was thin, ask again before filling the gap — and
+if you do fill one from memory, say which, because that is the one place the
+whole method leaks back into your defaults.
 
 **You cannot skip ahead to step 3.** With no Bun or no Chromium, open the sites
 yourself and work from what is on screen. If you cannot see any real site at
@@ -194,6 +213,29 @@ described in the words of what you saw rather than the name of a technique:
 A row with no site is a memory. A row with no brief line is decoration. Both get
 cut. One move per reference, never a whole look: six sites contributing one move
 each reads as a point of view, two sites contributing everything reads as a copy.
+
+**One row is not a move — it is the spine.** Palette, texture and type can all
+change while the page keeps the same skeleton, and a reader will still say it
+looks like everything else, because it does. Layout is the first thing they
+register and the thing this method most easily leaves alone: get absorbed in
+choosing hues and you will hang them on hero → three features → testimonial →
+call to action without ever deciding to.
+
+So one capture supplies the section order and the organising principle, named
+and attributed like any other row:
+
+```
+spine   ← <site you captured>   organised as <what it is organised as>
+```
+
+**Take the spine from the outside-category bucket** wherever you can, because
+that is where structures live that are not landing pages at all — an index, a
+menu, a timetable, a catalogue, a wall label, a track listing, a scorecard, a
+field guide. A page laid out as a printed index and a page laid out as a set
+list do not resemble each other whatever colours they arrive at.
+
+If the section order is hero → features → testimonial → CTA and no capture has
+that shape, it came from memory.
 
 **Then transform.** At least one row has to go through one of these, or the page
 is a tidy collage of things that already exist:
@@ -318,6 +360,9 @@ offset. Full-page captures cannot render them honestly.
 - You picked the palette before looking at a single real site
 - **A visible decision that cannot name the capture it came from**
 - Every reference is a direct competitor
+- **Every site on the list was named by you rather than by the client**
+- **The section order is hero → features → testimonial → CTA, and no capture has
+  that shape**
 - A reference contributed more than one move
 - Nothing was transferred, combined or pushed — the page is an average
 - **This page would work unchanged for an unrelated product**

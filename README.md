@@ -91,9 +91,15 @@ brief goes out in a single pass — five separate questions gets abandoned halfw
 | Register | talks like a friend ↔ talks like an expert | type weight, colour saturation, copy voice |
 | How much strange can this afford? | must feel familiar ↔ must be remembered | whether to break the grid at all |
 | What must it **not** look like? | *asked open* | the fastest constraint you will ever get |
+| Which 2–3 sites do you lose people to? | *asked open* | the competitor references, named by whoever actually knows |
+| Name something unrelated you find beautiful | *asked open* | the outside-category references — the largest source of difference between projects |
 
-*"Not like a hospital"* tells you more in four words than a page of brand values,
-and it goes straight into the capture list.
+*"Not like a hospital"* tells you more in four words than a page of brand values.
+The open answers **are** the reference list: two of the four capture buckets are
+filled by the client rather than by the agent, on purpose. Left to itself a model
+recalls the same admired sites for every brief in a category, so everyone running
+the skill would get pages built from the same inputs. What one particular person
+finds beautiful is the one input no two projects share.
 
 Then a gate, because most briefs arrive as *"build me a landing page"* and stop
 there. Two checks you can run rather than feel: **can you write the capture list
@@ -131,8 +137,19 @@ whatever you built last.
 ### 3 · Synthesise — take, transform, then check
 
 One structural move per reference, each traced to a line in the brief; anything
-that cannot be traced gets cut. But stacking one move per site only gives you
-the *average* of the references, so at least one has to be transformed:
+that cannot be traced gets cut.
+
+One row is not a move — it is the **spine**. Palette, texture and type can all
+change while the page keeps the same skeleton, and it will still look like
+everything else, because it does. So one capture supplies the section order and
+the organising principle, taken from the outside-category bucket wherever
+possible: an index, a menu, a timetable, a track listing, a scorecard. A page
+laid out as a printed index and a page laid out as a set list do not resemble
+each other whatever colours they arrive at. If the order is hero → features →
+testimonial → CTA and no capture has that shape, it came from memory.
+
+Stacking one move per site still only gives you the *average* of the references,
+so at least one has to be transformed:
 **transfer** it onto a different element than the reference uses it on,
 **combine** it with a move no reference combines it with, or **push** it further
 than any reference dares. Exactly one push — two read as noise.
