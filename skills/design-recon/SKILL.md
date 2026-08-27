@@ -67,7 +67,8 @@ of questions in chat.
 
 | Ask | Poles | What it settles |
 |---|---|---|
-| Who arrives, and from where? | cold social traffic ↔ searched for you or was referred | how much the page must explain before it can do its job |
+| Who is it for, and where are they? | *(ask open)* | the fourth capture bucket, and which script the page is set in |
+| How do they arrive? | cold social traffic ↔ searched for you or was referred | how much the page must explain before it can do its job |
 | Register | talks like a friend ↔ talks like an expert | type weight, colour saturation, copy voice |
 | How much strange can this afford? | must feel safe and familiar ↔ must be remembered | whether to break the grid at all |
 | What must it **not** look like? | *(ask open)* | the fastest constraint you will get |
@@ -86,6 +87,17 @@ no two projects share.
 
 Ask all of it in one pass. A brief delivered as separate questions gets abandoned
 halfway.
+
+**Never infer the audience from the language this conversation is happening in.**
+Someone briefing you in Thai may be building for the whole internet; someone
+briefing you in English may be building for Osaka. Guess, and the fourth bucket
+fills with references from a culture nobody asked for and the page quietly
+becomes about the wrong people. It is one open question — ask it.
+
+If the answer is that there is no particular place — an audience that is global,
+or professional, or just the person themselves — say so out loud and move those
+slots to outside-the-category, the same way the competitor bucket moves when
+there is nothing at stake. An invented local flavour is worse than none.
 
 #### When there is nothing at stake
 
@@ -180,7 +192,7 @@ bun capture.ts refs ./refs 1280 \
 | Direct competitors | 2–3 | — | what this audience already compares the page to |
 | Adjacent category | 2–3 | 2–3 | same job done elsewhere — showing work, telling a story, listing dates |
 | **Outside the category entirely** | 2–3 | **5–6** | record labels, museums, type foundries, restaurants, hardware |
-| The audience's own culture | 2+ | 2+ | what *that* audience reads as normal, which is not what you read as normal |
+| The audience's own culture | 2+ | 2+ | what *that* audience reads as normal, which is not what you read as normal — from the place the brief named, never the language you are being briefed in |
 
 The third bucket is what makes the result new. A page assembled only from
 competitors converges on the category average by construction — every input
@@ -416,6 +428,8 @@ offset. Full-page captures cannot render them honestly.
 - **A visible decision that cannot name the capture it came from**
 - Every reference is a direct competitor
 - **Every site on the list was named by you rather than by the client**
+- **The audience's culture was inferred from the language of this conversation
+  rather than asked for**
 - **The section order is hero → features → testimonial → CTA, and no capture has
   that shape**
 - A reference contributed more than one move

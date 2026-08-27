@@ -88,7 +88,8 @@ abandoned halfway.
 
 | Ask | Poles | What it settles |
 |---|---|---|
-| Who arrives, and from where? | cold social traffic ↔ searched for you | how much the page must explain before it can do its job |
+| Who is it for, and where are they? | *asked open* | the fourth reference bucket, and which script the page is set in |
+| How do they arrive? | cold social traffic ↔ searched for you | how much the page must explain before it can do its job |
 | Register | talks like a friend ↔ talks like an expert | type weight, colour saturation, copy voice |
 | How much strange can this afford? | must feel familiar ↔ must be remembered | whether to break the grid at all |
 | What must it **not** look like? | *asked open* | the fastest constraint you will ever get |
@@ -101,6 +102,13 @@ filled by the client rather than by the agent, on purpose. Left to itself a mode
 recalls the same admired sites for every brief in a category, so everyone running
 the skill would get pages built from the same inputs. What one particular person
 finds beautiful is the one input no two projects share.
+
+The first question exists because the fourth bucket needs a place and nothing
+else in the brief supplies one. **The audience is never inferred from the
+language the conversation is happening in** — someone briefing in Thai may be
+building for the whole internet, someone briefing in English may be building for
+Osaka — and if the answer is that there is no particular place, those slots move
+to outside-the-category rather than filling with an invented local flavour.
 
 Then a gate, because most briefs arrive as *"build me a landing page"* and stop
 there. Two checks you can run rather than feel: **can you write the capture list
